@@ -1,0 +1,616 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.header {
+  background: linear-gradient(to top , #d40f0f, #3a0303 );
+    width: 100;
+    position: fixed;
+    
+  }
+.header__barraPrin{       /*barra principal de la pagina */
+    background: linear-gradient(to top, rgb(189, 171, 35),rgb(233, 212, 126));
+    padding: 2px;
+  
+}
+
+.header__barraPrin ul li {
+
+    display: inline;
+    padding-left:3px;
+    padding-right:3px;
+    margin: 10px;
+
+}
+.header__barraPrin img {
+    width: 50px;
+   
+}
+.header__barraPrin a{
+    display: inline-block;  
+    margin: 5px;
+    font-size: 20px;
+    font-weight: bold;
+    color: rgb(85, 8, 8);
+    text-decoration: none;
+
+}
+/* ------------------------------------- barra de navegvacion---------------------------------------*/
+/*
+
+/********************************************* modificaciones del navbar de bootstrap**********************************/
+.navbar-brand img{
+  width: 15vw;
+  margin: 1rem;
+
+}
+.navbar-toggler{
+  width: 5rem;
+  background: linear-gradient(to top, rgb(143, 129, 28),rgb(243, 200, 26));
+}
+
+.navbar_Cp{
+  background: #570808;
+  position: fixed;
+  width: 100%;
+}
+.container-fluid--Cp{
+  background: linear-gradient(to top , #b60b0b, #3a0303 );
+  margin-top: -1rem;
+  margin-bottom: -1rem;
+ 
+ 
+}
+.bg-light li a{
+  color: #d4b122 !important;
+  padding: 1rem;
+  font-size: 1rem;
+  font-weight: 700;
+}
+.bg-light li a:hover{
+
+  background: rgb(58, 2, 2);
+}
+
+/*************** MODIFICACIONES CONTAINER BOOTSTRAP  ***************/
+
+.container{
+    position: static;
+    display: inline-flex;
+}
+
+.card-title{
+  color: #570808;
+}
+.card-text{
+  color: #836a08;
+  font-size: 1rem;
+}
+.row{
+    position: static;
+}
+
+
+
+  /*--------------------------------- main -------------------------------------------------------------------*/
+  
+ 
+.main__contenedor img{
+    float: left;
+    width: 100%;
+}
+  .contenido img{
+      width: 100vw;
+      height: 40%;
+      text-align: center;
+      float: left;
+    
+
+  }
+.main__textContent h2{
+    position: absolute;
+    top: 45%;
+    left: 10%;
+    font-size: 60px;
+    color: rgb(0, 0, 0);
+    background: -webkit-linear-gradient(rgb(66, 4, 4),rgb(218, 192, 66));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  color: rgb(49, 12, 6);
+
+}
+.main__textContent h3{
+    position: absolute;
+    top: 55%;
+    left: 10%;
+    font-size: 35px;
+    color: rgb(0, 0, 0);
+    color: rgb(0, 0, 0);
+    background: -webkit-linear-gradient(rgb(182, 14, 14),rgb(66, 4, 4));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  color: rgb(49, 12, 6);
+
+}
+.main__textContent p{
+    text-align: justify;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 15px;
+}
+
+.titles h2{
+  background: rgb(107, 3, 3);
+  text-align: center;
+  color: rgb(223, 228, 222);
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 2rem;
+  padding: 1rem;
+ 
+
+}
+.container {
+  display: flex;
+ 
+}
+.row .container__figure {
+  margin: 1rem;
+  width: 100%;
+  height: auto;
+  
+}
+.container__parrafos{
+  margin: 1rem;
+
+}
+.container__parrafos p{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 23px;
+  font-weight: 500;
+  text-align: justify;
+  padding: 2px;
+  color: #3a0303;
+}
+
+
+
+/*--------------------------------------------mapa---------------------------------------------------------------------------------------*/
+.mapa .iframe{
+  width: 100vw;
+  
+}
+
+
+
+/*-------------------------------------------------------pie de pagina--------------------------------------------------------------------*/
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+footer{
+  width: 100%;
+  position: static;
+  bottom: 0;
+  left: 0;
+  background: linear-gradient(to top , #3a0303, #d40f0f );
+}
+footer .content{
+  max-width: 1350px;
+  margin: auto;
+  padding: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+footer .content p,a{
+  color: #fff;
+}
+footer .content .box{
+  width: 33%;
+  transition: all 0.4s ease;
+}
+footer .content .topic{
+  font-size: 22px;
+  font-weight: 600;
+  color: #fff;
+  margin-bottom: 16px;
+
+}
+footer .content p{
+  text-align: justify;
+}
+footer .content .lower .topic{
+  margin: 24px 0 5px 0;
+}
+footer .content .lower i{
+  padding-right: 16px;
+}
+footer .content .middle{
+  padding-left: 80px;
+}
+footer .content .middle a{
+  line-height: 32px;
+}
+footer .content .right input[type="text"]{
+  height: 45px;
+  width: 100%;
+  outline: none;
+  color: #d9d9d9;
+  background: #000;
+  border-radius: 5px;
+  padding-left: 10px;
+  font-size: 17px;
+  border: 2px solid #222222;
+}
+footer .content .right input[type="submit"]{
+  height: 42px;
+  width: 100%;
+  font-size: 18px;
+  color: #d9d9d9;
+  background: #eb2f06;
+  outline: none;
+  border-radius: 5px;
+  letter-spacing: 1px;
+  cursor: pointer;
+  margin-top: 12px;
+  border: 2px solid #eb2f06;
+  transition: all 0.3s ease-in-out;
+}
+.content .right input[type="submit"]:hover{
+  background: none;
+  color:  #eb2f06;
+}
+footer .content .media-icons a{
+  font-size: 16px;
+  height: 45px;
+  width: 45px;
+  display: inline-block;
+  text-align: center;
+  line-height: 43px;
+  border-radius: 5px;
+  border: 2px solid #222222;
+  margin: 30px 5px 0 0;
+  transition: all 0.3s ease;
+}
+.content .media-icons a:hover{
+  border-color: #eb2f06;
+}
+footer .bottom{
+  width: 100%;
+  text-align: right;
+  color: #d9d9d9;
+  padding: 0 40px 5px 0;
+}
+footer .bottom a{
+  color: #eb2f06;
+}
+footer a{
+  transition: all 0.3s ease;
+}
+footer a:hover{
+  color: #eb2f06;
+}
+/*@media (max-width:1100px) {
+  footer .content .middle{
+    padding-left: 50px;
+  }
+}
+@media (max-width:950px){
+  footer .content .box{
+    width: 50%;
+  }
+  .content .right{
+    margin-top: 40px;
+  }
+}
+@media (max-width:560px){
+  footer{
+    position: relative;
+  }
+  footer .content .box{
+    width: 100%;
+    margin-top: 30px;
+  }
+  footer .content .middle{
+    padding-left: 0;
+  }
+}*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/***************acerca de nosotros**************/
+
+.about h1{
+
+  font-size: 35px;
+  width: 50%;
+  height: 50%;
+  
+
+ 
+  
+}
+.rowcontainer__parrafos{
+  width: 100;
+  margin: 1rem;
+
+}
+.rowcontainer__parrafos p{
+  color: #4d0404;
+  font-size: 1rem;
+  font-weight: 600;
+  margin: 2px;
+  padding: 2px;
+  text-align: justify;
+}
+.container-About{
+  display: inline-flex;
+  width: 100%;
+
+}
+.row{
+  width: 100%;
+  display: flex
+
+}
+.row .title{
+  width: 90%;
+  align-content: center;
+  margin: 1rem;
+  padding: 1rem;
+}
+.row .titles h2{
+  
+  margin: 3px;
+  padding: 5px;
+  background: linear-gradient(to left, rgb(59, 7, 7), rgb(220, 27, 27));
+}
+
+/******************************************* Servicios financieros **************************************/
+
+.rowstyle{
+  padding: 5px;
+  margin: 10px;
+  border-left: solid #3a0303 5px;
+  background: #cbc9c9;
+  box-shadow: 10px 5px 5px black;
+}
+.rowstyle p{
+  font-size: 25px;
+  font-weight: 600;
+
+}
+
+/*********************************************contactanos******************************************************/
+
+
+/**************************** nuevo formulario *********************************/
+@import url( 'https://fonts.googleapis.com/css?family=Roboto');
+.contact_form{  
+  width: auto; 
+  height: auto;
+  margin: 70px auto;
+  border-radius: 10px;  
+  padding-top: 30px;
+  padding-bottom: 30px;  
+  background-color: #e9d8d8; 
+  padding-left: 30px; 
+}
+.formulario{
+  width: 550px;
+}
+
+input{
+  background-color: #fbfbfb; 
+  width: 460px; 
+  height: 40px; 
+  border-radius: 5px;  
+  border-style: solid; 
+  border-width: 1px; 
+  border-color: #ab4444; 
+  margin-top: 10px;  
+  padding-left: 10px;
+  margin-bottom: 20px; 
+}
+
+
+textarea{
+  background-color: #fbfbfb; 
+  width: 460px; 
+  height: 150px; 
+  border-radius: 5px;  
+  border-style: solid; 
+  border-width: 1px; 
+  border-color: #ab4444; 
+  margin-top: 10px;  
+  padding-left: 10px;
+  margin-bottom: 20px; 
+  padding-top: 15px; 
+}
+
+
+label{
+  display: block; 
+  float: center;  
+}
+
+
+button{
+  
+  height: 45px; 
+  padding-left: 5px;
+  padding-right: 5px;   
+  margin-bottom: 20px; 
+  margin-top: 10px;   
+  text-transform: uppercase;
+  background-color: #660404; 
+  border-color: #ab4444; 
+  border-style: solid; 
+  border-radius: 10px;  
+  width: 420px;   
+  cursor: pointer;
+}
+
+
+button p{
+  color: #fff; 
+}
+
+
+span{
+  color: #4d0404; 
+}
+
+
+.aviso{
+  font-size: 13px;  
+  color: #0e0e0e;  
+}
+
+
+h1{
+  font-size: 39px;  
+  text-align: letf; 
+  padding-bottom: 20px; 
+  color: #ab4444;
+}
+
+
+h3{
+  font-size: 16px; 
+  padding-bottom: 30px;
+  color: #0e0e0e;   
+}
+
+
+p{
+  font-size: 14px; 
+  color: #0e0e0e; 
+}
+
+
+::-webkit-input-placeholder {
+ color: #a8a8a8;
+}
+
+
+::-webkit-textarea-placeholder {
+ color: #a8a8a8;
+}
+
+
+.formulario input:focus{
+  outline:0;
+  border: 1px solid #a00b0b;
+}
+
+
+.formulario textarea:focus{
+  outline:0;
+  border: 1px solid #9c0c0c;
+}
+
+.imgCotizacion img{
+  align-content: center;
+  margin-top: 4rem;
+  width: 40vw;
+
+}
+.containerForm{
+  background-image: url(../img/cotizacion.png);
+}
+
+/*****************************************  responsive  ******************************************/
+@media ( max-width:1080px){
+    .container{
+      display: inline;
+      position:static;
+    }
+  }
+
+  @media only screen and (max-width:700px){/*-------------------------vsta mobil-------------------*/
+    .main__textContent h2{
+      position: absolute;
+      top: 38vw;
+      left: 10%;
+      font-size: 20px;
+      
+  
+  }
+  .main__textContent h3{
+      position: absolute;
+      top: 45vw;
+      left: 10%;
+      font-size: 1rem;
+      
+  
+  }
+  .row img{
+    width: 100vw;
+    padding: 2rem;
+  }
+
+
+
+
+    footer{
+      position: static;
+      width: 100vw;
+    }
+    footer .content .box{
+      width: 100vw;
+      margin-top: 30px;
+    }
+    footer .content .middle{
+      padding-left: 0;
+    }
+  }
+
+
+    @media only screen and (min-width:701px) and (max-width:850px){
+      .main__textContent h2{
+        position: absolute;
+        top: 30vw;
+        left: 10%;
+        font-size: 40px;
+        
+    
+    }
+    .main__textContent h3{
+        position: absolute;
+        top: 35vw;
+        left: 10%;
+        font-size: 30px;
+        
+    
+    }
+    .row {
+      display: flex;
+      width: 100%;
+    }
+    .row img{
+      width: 94vw;
+      align-content: center;
+      margin: 1rem;
+    }
+      footer .content .box{
+        width: 50%;
+      }
+      .content .right{
+        margin-top: 40px;
+      }
+    }
+  
